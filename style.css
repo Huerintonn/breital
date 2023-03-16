@@ -1,0 +1,274 @@
+html {
+    scroll-behavior: smooth;
+}
+:target {
+    scroll-margin-top: 3em;
+}
+
+body {
+    background-image: url(imgs/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #ffffff;
+    font-family: sans-serif;   
+    text-align: center;
+}
+
+main{
+    margin: auto 0;    
+}
+
+/*Header*/
+
+header {
+    background-color: #edc242;
+    color: white;
+    position: fixed;
+    width: 100%;
+    top:0;
+    padding:10px;
+    z-index: 1020;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    margin: 0.5em 0;
+}
+
+.menu-item {
+    margin: 0 1em;
+}
+
+.menu-item a {
+    color:rgb(76, 51, 34);
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.menu-item a:hover{
+    color: white;
+}
+
+/*Sobre*/
+.logo-branco {
+    margin-top: 5em;
+    width: 295px;
+         
+}
+
+.line {
+    width: 56.5%;
+    height: 5px;
+    background-color: #edc242;
+}
+
+.texto__sobre {
+    background-color: rgba(163, 99, 21, 0.8);
+    padding: 2em 0;
+    margin: 2em auto;
+
+}
+
+.texto__sobre p {
+    max-width: 760px;
+    margin: auto;
+    padding: 1.5em;
+    text-align: justify;
+    font-size: 20px;
+    line-height: 1.5rem;
+}
+/*Serviços*/
+.servicos {
+    background-color: rgba(76, 51, 34, 0.8);
+
+    padding: 2em;
+    
+}
+
+.servicos p {
+    max-width: 760px;
+    margin: auto;
+    text-align: left;
+    font-size: 20px;
+    line-height: 1.5em;
+}
+
+h2 {
+    max-width: 760px;
+    margin: auto;
+    text-align: left;
+    font-size: 25px;
+    font-weight: bold;
+    color:#edc242;
+    padding: 10px;
+}
+
+.lista__servicos {
+    margin-top: 1em;
+    margin-left: 35%;
+    line-height: 1.5em;
+}
+
+.lista__servicos p {
+    font-size: 25px;
+}
+
+/*Informações de Contato*/
+.infos {
+    background-color: rgba(163, 99, 21, 0.8);
+    width: 100%;
+    padding: 2em 0;
+    margin: 2em auto;
+    
+}
+
+/*Redes sociais*/
+
+.redes-sociais {
+    display: inline-flex;
+    justify-content: center;
+
+}
+
+.redes-sociais_item {
+    margin: 1em 0,05;
+    filter: saturate(0);
+    filter:brightness(100)    
+}
+
+.redes-sociais_item:hover{
+     filter: saturate(0.8);        
+}
+
+.redes-sociais_item a{
+    cursor: pointer;    
+}
+
+.icone-redes-sociais {
+    width: 45%;
+}
+
+.line2 {
+    margin: 2em auto;
+    width: 30%;
+    height: 2px;
+    background-color: #edc242;
+}
+
+/*mapa*/
+ .mapa {
+    max-width: 760px;
+    margin: 1em auto;
+ }
+
+ .google-map {
+    width: 100%;
+
+ }
+
+/*Contatos*/
+
+.contatos {
+    max-width: 760px;
+    margin: auto;
+    text-align: left;
+    display: block;
+    text-align: left;
+
+
+}
+
+.contatos_item {
+    margin: 1em;
+    filter: saturate(0);
+    filter:brightness(100);
+
+}
+
+.contatos_item:hover{
+     filter: saturate(0.8);        
+}
+
+.contatos_item a{
+    cursor: pointer;   
+}
+
+.contato_texto {
+    color:#ffffff;
+    margin-left: 1em;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.contato_texto:hover {
+    color: #edc242;
+}
+
+.icone-contato {
+    width: 25px;
+}
+
+.contato_local {
+    position: fixed;
+    color:#ffffff;
+    margin-left: 1em;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.contato_local:hover {
+    color: #edc242;
+}
+
+.icone-local {
+    width: 20px;
+}
+
+/*Footer*/
+.rodape{
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+.logo-reduzida{
+    width: 50px;
+    padding: 1em
+}
+
+.copy {
+    margin: 0.5em 0;
+    font-size: 16px;
+}
+
+.rodape a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;    
+}
+
+.rodape a:hover {
+    color: #ae0007;   
+}
+
+/*Response*/
+@media screen and (max-width: 1920px) {
+    body {
+        background-size: auto;
+        background-position: center;
+        background-attachment: fixed;
+    }
+  
+   
+}
+
+@media screen and (max-width: 760px) {
+    .servicos p {
+        font-size: 17px;
+    }
+    
+   
+}
+
